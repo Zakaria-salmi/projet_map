@@ -1,0 +1,15 @@
+export enum Region {
+  Toutes = 'Toutes les régions',
+  AuvergneRhoneAlpes = 'Auvergne-Rhône-Alpes',
+  BourgogneFrancheComte = 'Bourgogne-Franche-Comté',
+  Bretagne = 'Bretagne',
+  CentreValDeLoire = 'Centre-Val de Loire',
+  GrandEst = 'Grand Est',
+  HautsDeFrance = 'Hauts-de-France',
+  IdeFrance = 'Île-de-France',
+  Normandie = 'Normandie',
+  NouvelleAquitaine = 'Nouvelle-Aquitaine',
+  Occitanie = 'Occitanie',
+  PaysDeLaLoire = 'Pays de la Loire',
+  ProvenceAlpesCoteDAzur = "Provence-Alpes-Côte d'Azur",
+}
