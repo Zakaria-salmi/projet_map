@@ -1,0 +1,14 @@
+{
+  "paris": [
+    { "id": 1, "name": "Paris", "population": 2161000, "region": "Île-de-France", "lat": 48.8566, "lng": 2.3522 },
+    { "id": 2, "name": "Paris-Le Bourget", "population": 26000, "region": "Île-de-France", "lat": 48.9562, "lng": 2.4415 }
+  ],
+  "lyon": [
+    { "id": 3, "name": "Lyon", "population": 513000, "region": "Auvergne-Rhône-Alpes", "lat": 45.7597, "lng": 4.8422 }
+  ],
+  "nearby": [
+    { "id": 1, "name": "Paris", "population": 2161000, "region": "Île-de-France", "lat": 48.8566, "lng": 2.3522, "distance_km": 3.1 },
+    { "id": 4, "name": "Versailles", "population": 85771, "region": "Île-de-France", "lat": 48.8014, "lng": 2.1301, "distance_km": 18.4 },
+    { "id": 5, "name": "Boulogne-Billancourt", "population": 117931, "region": "Île-de-France", "lat": 48.8353, "lng": 2.2399, "distance_km": 8.9 }
+  ]
+}

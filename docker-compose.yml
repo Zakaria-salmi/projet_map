@@ -16,9 +16,15 @@ services:
       - "3000:3000"
     depends_on:
       - db
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_NAME: postgres
+      DB_USER: postgres
+      DB_PASSWORD: postgres
 
   frontend:
-    build: ./frontend/cities_map
+    build: ./frontend
     ports:
       - "8080:80"
     depends_on:

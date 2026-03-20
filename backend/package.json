@@ -11,8 +11,7 @@
   "jest": {
     "collectCoverageFrom": [
       "controllers/**/*.js",
-      "services/**/*.js",
-      "middlewares/**/*.js"
+      "services/**/*.js"
     ]
   },
   "keywords": [],

@@ -1,0 +1,11 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "types": ["cypress", "node"],
+    "module": "esnext",
+    "moduleResolution": "bundler"
+  },
+  "include": ["cypress/**/*.ts"]
+}
+
